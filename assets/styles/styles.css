@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	background: #1d2026;
+	min-height: 100vh;
+	width: 100%;
+	color: #fff;
+	position: relative;
+}
+nav {
+	display: flex;
+	align-items: center;
+	padding: 20px 8px;
+}
+nav .text{
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: 800;
+	font-style: italic;
+	color: #fff;
+	margin-left: 2.5%;
+	letter-spacing: 5px;
+}
+nav ul{
+	flex: 1;
+	text-align: right;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+button {
+	background: #efefef;
+	height: 30px;
+	width: 60px;
+	border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button span{
+	display: block;
+	background: #999;
+	height: 26px;
+	width: 26px;
+	border-radius: 50%;
+	margin-left: 2px;
+	transition: background 0.5s, margin-left 0.5s;
+}
+.lamp-container{
+	position: absolute;
+	top: -20px;
+	left: 22%;
+	width: 200px;
+}
+.lamp {
+	width: 100%
+}
+.light{
+	position: absolute;
+	top : 97%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 700px;
+	margin-left: -10px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.text-container {
+	max-width: 600px;
+	margin-top: 7%;
+	margin-left: 50%;
+}
+.text-container h1 {
+	font-size: 65px;
+	font-weight: 400;
+}
+.text-container a{
+	text-decoration: none;
+	background: #00986f;
+	padding:14px 40px;
+	display: inline-block;
+	color: #fff;
+	font-size:18px;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+.active{
+	background: green;	
+}
+.active span{
+	background: #fff;
+	margin-left: 31px; 
+}
+.on{
+	opacity: 1;
+}
+main {
+	margin-top: 5%;
+	align-items: center;
+}
+h2{
+	text-align: center;
+}
+table{
+	text-align: center;
+	border-collapse: collapse;
+	align-self: center;
+	margin-left: 10%;
+	margin-top:3%;
+}
+.even-col{
+	text-align: left;
+}
+.odd-col{
+	text-align: right;	
+}
+td img{
+	width: 20%;
+	padding: 15px;
+}
+#contact{
+	margin-top: 5%;
+	background: #1d2026;
+	color: #fff;
+}
+.container{
+	display: flex;
+	width: 40%;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px auto;
+    flex-direction: row;
+}
+.contact-img{
+	flex-grow: 1;
+	width: 15%;
+	padding: 10%;
+}
+.as-img{
+	width: 20%;
+	padding: 10px;
+}
+footer{
+	background: #1d2026;
+	color: #fff;
+	text-align: center;
+}
+h3 {
+	line-height: 3em;
+}
